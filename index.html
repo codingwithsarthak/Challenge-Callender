@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Modern Wall Calendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calendar-container">
+        <div class="header-image">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" alt="Mountains">
+            <div class="blue-shape"></div>
+            <div class="month-year-display">
+                <h2 id="yearLabel">2026</h2>
+                <h1 id="monthLabel">JANUARY</h1>
+            </div>
+        </div>
+
+        <div class="calendar-body">
+            <div class="notes-sidebar">
+                <h3>Notes</h3>
+                <div class="note-line"></div>
+                <div class="note-line"></div>
+                <div class="note-line"></div>
+                <div class="note-line"></div>
+                <div class="note-line"></div>
+            </div>
+
+            <div class="grid-container">
+                <div class="weekday-header">
+                    <span>MON</span><span>TUE</span><span>WED</span><span>THU</span><span>FRI</span><span class="weekend">SAT</span><span class="weekend">SUN</span>
+                </div>
+                <div id="calendarGrid" class="days-grid">
+                    </div>
+                
+                <div class="nav-buttons">
+                    <button id="prevBtn">← Previous</button>
+                    <button id="nextBtn">Next →</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
